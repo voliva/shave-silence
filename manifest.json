@@ -9,7 +9,7 @@
         "contentScript.js"
       ],
       "matches": [
-        "https://www.youtube.com/*"
+        "*://*/*"
       ]
     }
   ],

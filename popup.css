@@ -2,7 +2,7 @@
   display: none;
 }
 
-#main {
+#main:not(.hidden) {
   display: flex;
   flex-direction: column;
 }
