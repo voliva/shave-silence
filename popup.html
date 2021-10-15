@@ -7,7 +7,28 @@
     <div id="loading">Loading...</div>
     <div id="no-videos" class="hidden">No videos detected</div>
     <div id="main" class="hidden">
-      Main
+      <label id="video-num">
+        Video <span></span>
+        <input type="number" step="1" value="0" min="0" max="0" />
+      </label>
+      <label id="low_t">
+        Low volume threshold
+        <input type="number" value="100" />
+      </label>
+      <label id="low_s">
+        Low volume speed
+        <input type="number" value="4" />
+      </label>
+      <label id="high_t">
+        High volume threshold
+        <input type="number" value="150" />
+      </label>
+      <label id="high_s">
+        High volume speed
+        <input type="number" value="1.2" />
+      </label>
+      <button id="play">Play</button>
+      <button id="stop">Stop</button>      
     </div>
     <script src="popup.js"></script>
   </body>
